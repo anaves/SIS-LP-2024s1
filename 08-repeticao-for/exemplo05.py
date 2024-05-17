@@ -1,0 +1,18 @@
+times = ["SPFC", "Vasco", "ATLETICO MG", "PARAISENSE"]
+# 
+# SPFC X VASCO
+# SPFC X ATLETICO MG
+# SPFC X PARAISENSE
+# VASCO X SPFC
+# VASCO X ATLETICO MG
+# VASCO X PARAISENSE
+# ATLETICO MG X SPFC
+# ATLETICO MG X Vasco
+# ATLETICO MG X PARAISENSE
+# PARAISENSE X SPFC
+# PARAISENSE X VASCO
+# PARAISENSE X ATLETICO MG
+for timeA in times:
+    for timeB in times:
+        if timeA != timeB:
+            print(f"{timeA} X {timeB}")
