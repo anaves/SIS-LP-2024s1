@@ -1,0 +1,5 @@
+frase = input("Digite a frase: ")
+termos = frase.split()
+print(termos)
+qtd_palavras = len(termos)
+print(f"Tem {qtd_palavras} palavras")
